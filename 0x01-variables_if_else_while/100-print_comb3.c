@@ -1,31 +1,36 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, j, k, l;
+	int c;
+	int d = 0;
 
-	for (i = 0; i < 1000; i++)
+	while (d < 10)
 	{
-		j = i / 100; /* hundreds */
-		k = (i / 10) % 10; /* tens */
-		l = i % 10; /* singles */
+		c = 0;
 
-		if (j < k && k < l)
+		while (c < 10)
 		{
-			putchar(j + '0');
-			putchar(k + '0');
-			putchar(l + '0');
-
-			if (i < 700)
+			if (d != c && d < c)
 			{
-				putchar( 44, 32);
+				putchar('0' + d);
+				putchar('0' + c);
+
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+
+			c++;
 		}
+		d++;
 	}
 	putchar('\n');
 	return (0);
