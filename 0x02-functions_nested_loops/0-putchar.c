@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: nothing, return void
  */
 
 int main(void)
@@ -18,5 +18,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
