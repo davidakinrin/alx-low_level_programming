@@ -1,1 +1,1 @@
-not empty
+pointers,arrays and string
