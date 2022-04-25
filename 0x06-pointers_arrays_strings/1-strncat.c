@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates weo strings usings using at most
+ * _strncat - concatenates two strings using at most
  * an inputed number of bytes from src
  * @dest: the string to be appended upon
  * @src: the string to be appended to dest
