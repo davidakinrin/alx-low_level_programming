@@ -5,7 +5,7 @@
  * @s1: A pointer to the first string to be compared
  * @s2: A pointer to the second sring to be compared
  *
- * Return: if str1 < str2, the negative difference of the first 
+ * Return: if str1 < str2, the negative difference of the first
  * unmatched characters
  * if str1 > str2, the positive difference of the first unmatched characters
  * if str1 == str2, 0
