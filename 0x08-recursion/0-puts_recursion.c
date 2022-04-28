@@ -2,7 +2,7 @@
 /**
  * _puts_recursion - funcion that orints a string
  * @s: string
- * return: 0
+ * Return: no return
  */
 void _puts_recursion(char *s)
 {
