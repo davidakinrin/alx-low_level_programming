@@ -1,6 +1,9 @@
 #ifndef FILE_DOG
 #define FILE_DOG
+<<<<<<< HEAD
+=======
 
+>>>>>>> cc06c2266385543025ce918f1fa10f9dd02ca8ec
 /**
  * struct dog - structure dog
  * @name: atribute pointer to char name's dog
